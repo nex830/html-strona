@@ -1,0 +1,53 @@
+<head>
+        <title>Definiowanie kotwicy w konkretnym miejscu strony</title>
+        <meta charset="UTF-8">
+        <meta name="keywords" content="HTML5, kotwica, odsyłacz, link, hiperłącze">
+        <meta name="description" content="Przykład definiowania kotwicy w konkretnym miejscu strony">
+        <meta name="author" content="Franciszek Bulawa">
+        <meta name="robots" content="all">
+    </head>
+    <body>
+        <h1>Jak definiujemy kotwicę na stronie</h1>
+
+        <section>
+            <h2 id="a_top">Tutaj zdefiniowaliśmy kotwicę o nazwie <i>a_top</i></h2>
+            <p>
+                <a href="#a_bottom">To jest link do kotwicy dolnej</a>
+                </p><figure>
+                    <img src="hall1.jpg" alt="Kotwica Halla" width="400">
+                    <figcaption>
+                        Rysunek 1. Kotwica Halla
+                    </figcaption>
+                </figure>
+            <p></p>
+        </section>
+
+        <section>
+            <br><br>
+            <p>
+                Zdefiniowanie kotwicy w konkretnym miejscu dokumentu HTML<br>
+                i wskazanie tej kotwicy w linku do tego dokumentu,<br>
+                spowoduje po jego otwarciu, przewinięcie go<br>
+                tak aby wiersz zawierający tę kotwicę znajdował się jak najbliżej górnej krawędzi okna przeglądarki.<br>
+                Aby było co przewijać dodamy dwa rysunki kotwice oraz linie puste,<br>
+                a następnie, zdefiniujemy dwie kotwice.
+                <br><br><br>
+            </p>
+        </section>
+
+        <section>
+            <a name="a_bottom"></a>
+            <h2>Tutaj została zdefiniowana kotwica o nazwie <i>a_bottom</i></h2>
+            <p>
+                <a href="#a_top">To jest link do kotwicy górnej</a>
+                </p><figure>
+                    <img src="hall2.jpg" alt="Druga kotwica Halla" width="400">
+                    <figcaption>
+                        Rysunek 2. Kotwica Halla
+                    </figcaption>
+                </figure>
+            <p></p>
+        </section>
+    
+
+</body>
